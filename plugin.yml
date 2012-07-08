@@ -1,0 +1,18 @@
+name: JailCheck
+main: me.SgtMjrME.JailCheck.JailCheck
+version: 0.01
+description: Saves jail data to disk, can be recalled by command
+             (Saves data using essentials jail command)
+depends: [EssentialsChat; Essentials]
+
+commands:
+    JailCheck:
+        description: Contains all commands
+    checkjailtime:
+        description: Allows users to check their time till release.
+    tpjail:
+        description: Used to tp witnesses to jail.
+permissions:
+    JC.check:
+        description: Set who can look at their jail time (if they are)
+        default: true
